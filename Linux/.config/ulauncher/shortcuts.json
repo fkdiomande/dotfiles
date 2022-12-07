@@ -1,0 +1,182 @@
+{
+    "4eed1811-2f0d-4320-87df-728cccbc3f6f": {
+        "id": "4eed1811-2f0d-4320-87df-728cccbc3f6f",
+        "name": "Google Search",
+        "keyword": "g",
+        "cmd": "https://google.com/search?q=%s",
+        "icon": "/usr/share/ulauncher/media/google-search-icon.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1616488640.0812478
+    },
+    "7d00e1e3-b830-4a61-91c0-bded91749f53": {
+        "id": "7d00e1e3-b830-4a61-91c0-bded91749f53",
+        "name": "Stack Overflow",
+        "keyword": "so",
+        "cmd": "http://stackoverflow.com/search?q=%s",
+        "icon": "/usr/share/ulauncher/media/stackoverflow-icon.svg",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1616488640.0812757
+    },
+    "25b8ec7a-a9e2-4d6a-98af-6025d27ad966": {
+        "id": "25b8ec7a-a9e2-4d6a-98af-6025d27ad966",
+        "name": "Wikipedia",
+        "keyword": "wiki",
+        "cmd": "https://en.wikipedia.org/wiki/%s",
+        "icon": "/usr/share/ulauncher/media/wikipedia-icon.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1616488640.0812945
+    },
+    "66053a26-422d-451b-9274-ff43a9ac88d3": {
+        "id": "66053a26-422d-451b-9274-ff43a9ac88d3",
+        "name": "Folder - Projects",
+        "keyword": "projects",
+        "cmd": "nautilus ~/Documents/Projects",
+        "icon": "/usr/share/icons/Papirus/128x128/places/folder-teal-git.svg",
+        "is_default_search": true,
+        "run_without_argument": true,
+        "added": 1616496934.0517373
+    },
+    "01207bb0-e0e4-4f95-b0ec-9462dce85f5d": {
+        "id": "01207bb0-e0e4-4f95-b0ec-9462dce85f5d",
+        "name": "Terminal - Projects",
+        "keyword": "projects-terminal",
+        "cmd": "terminator -e 'cd ~/Documents/Projects; exec fish'",
+        "icon": "/usr/share/icons/Papirus/128x128/places/folder-teal-script.svg",
+        "is_default_search": true,
+        "run_without_argument": true,
+        "added": 1616498210.3717034
+    },
+    "4432a105-0055-478a-b3a8-10b469b4a7d9": {
+        "id": "4432a105-0055-478a-b3a8-10b469b4a7d9",
+        "name": "Folder - Downloads",
+        "keyword": "downloads",
+        "cmd": "nautilus ~/Downloads",
+        "icon": "/usr/share/icons/Papirus/128x128/places/folder-teal-download.svg",
+        "is_default_search": true,
+        "run_without_argument": true,
+        "added": 1616499176.0835419
+    },
+    "aa28979d-47e8-4fa3-8821-64ec1c7d69a3": {
+        "id": "aa28979d-47e8-4fa3-8821-64ec1c7d69a3",
+        "name": "Alphacap Plateform",
+        "keyword": "alphacap-plateform",
+        "cmd": "terminator -e 'cd ~/Documents/Projects/Alphacap/Plateform; exec fish'",
+        "icon": "/usr/share/icons/Papirus/128x128/places/folder-teal-script.svg",
+        "is_default_search": true,
+        "run_without_argument": true,
+        "added": 1616499753.769424
+    },
+    "c2ed0479-5d43-42b6-b3b5-6c150dbade20": {
+        "id": "c2ed0479-5d43-42b6-b3b5-6c150dbade20",
+        "name": "Corvaillus",
+        "keyword": "corvaillus",
+        "cmd": "nautilus /run/media/franck/Corvaillus",
+        "icon": "/usr/share/icons/Papirus/128x128/places/folder-teal-meocloud.svg",
+        "is_default_search": true,
+        "run_without_argument": true,
+        "added": 1616500071.0443811
+    },
+    "b5f5e747-60cd-4387-9638-6c2f07d3435c": {
+        "id": "b5f5e747-60cd-4387-9638-6c2f07d3435c",
+        "name": "Facebook",
+        "keyword": "facebook",
+        "cmd": "google-chrome-stable https://www.facebook.com",
+        "icon": "~/.config/ulauncher/icons/icons8-facebook.svg",
+        "is_default_search": true,
+        "run_without_argument": true,
+        "added": 1616507576.3347735
+    },
+    "ab2ebf42-af29-4b7b-9d44-7f3f64c0c3e5": {
+        "id": "ab2ebf42-af29-4b7b-9d44-7f3f64c0c3e5",
+        "name": "Twitter",
+        "keyword": "twitter",
+        "cmd": "google-chrome-stable https://twitter.com",
+        "icon": "~/.config/ulauncher/icons/icons8-twitter.svg",
+        "is_default_search": true,
+        "run_without_argument": true,
+        "added": 1616507619.1803539
+    },
+    "6ff0cb09-25d0-4dd9-9c27-981f1737db3d": {
+        "id": "6ff0cb09-25d0-4dd9-9c27-981f1737db3d",
+        "name": "Linkedin",
+        "keyword": "linkedin",
+        "cmd": "google-chrome-stable https://www.linkedin.com/feed",
+        "icon": "~/.config/ulauncher/icons/icons8-linkedin.svg",
+        "is_default_search": true,
+        "run_without_argument": true,
+        "added": 1616507644.1589816
+    },
+    "ded170f8-9c0b-4b34-aec1-83618bc8d315": {
+        "id": "ded170f8-9c0b-4b34-aec1-83618bc8d315",
+        "name": "Gitlab",
+        "keyword": "gitlab",
+        "cmd": "google-chrome-stable https://gitlab.com",
+        "icon": "~/.config/ulauncher/icons/icons8-gitlab.svg",
+        "is_default_search": true,
+        "run_without_argument": true,
+        "added": 1616507699.2166052
+    },
+    "adbdb930-fa14-4e4e-8f0e-426c798d0363": {
+        "id": "adbdb930-fa14-4e4e-8f0e-426c798d0363",
+        "name": "Github",
+        "keyword": "github",
+        "cmd": "google-chrome-stable https://github.com",
+        "icon": "~/.config/ulauncher/icons/icons8-github.svg",
+        "is_default_search": true,
+        "run_without_argument": true,
+        "added": 1616507726.075348
+    },
+    "c187e3fc-f7aa-42f2-9816-c2a077cbee18": {
+        "id": "c187e3fc-f7aa-42f2-9816-c2a077cbee18",
+        "name": "Gmail",
+        "keyword": "mail",
+        "cmd": "google-chrome-stable https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser",
+        "icon": "~/.config/ulauncher/icons/icons8-gmail.svg",
+        "is_default_search": true,
+        "run_without_argument": true,
+        "added": 1616508092.3992312
+    },
+    "70ce7ec8-bb70-418b-a1bd-b727e7888519": {
+        "id": "70ce7ec8-bb70-418b-a1bd-b727e7888519",
+        "name": "Nucleo",
+        "keyword": "nucleo",
+        "cmd": "google-chrome-stable https://nucleoapp.com/app/",
+        "icon": "~/.config/ulauncher/icons/nucleo.svg",
+        "is_default_search": true,
+        "run_without_argument": true,
+        "added": 1616513345.5865958
+    },
+    "49611394-e4ab-4358-a690-2b31d247bdce": {
+        "id": "49611394-e4ab-4358-a690-2b31d247bdce",
+        "name": "Polybar Hide",
+        "keyword": "polybarhide",
+        "cmd": "killall -q polybar",
+        "icon": "~/.config/ulauncher/icons/icons8-dock-de-mac-96.png",
+        "is_default_search": true,
+        "run_without_argument": true,
+        "added": 1617093730.1938426
+    },
+    "7448bd8d-b181-47b2-8484-0dfdbcf83df2": {
+        "id": "7448bd8d-b181-47b2-8484-0dfdbcf83df2",
+        "name": "Polybar Show",
+        "keyword": "polybarshow",
+        "cmd": "$HOME/.config/polybar/material/launch.sh",
+        "icon": "~/.config/ulauncher/icons/icons8-dock-de-mac-96.png",
+        "is_default_search": true,
+        "run_without_argument": true,
+        "added": 1617093798.014599
+    },
+    "f99c536b-b85e-4beb-9f69-64ca49832813": {
+        "id": "f99c536b-b85e-4beb-9f69-64ca49832813",
+        "name": "Proton Mail",
+        "keyword": "proton-mail",
+        "cmd": "google-chrome-stable https://mail.protonmail.com/inbox",
+        "icon": "~/.config/ulauncher/icons/icons8-physique-96.png",
+        "is_default_search": true,
+        "run_without_argument": true,
+        "added": 1620115826.0045936
+    }
+}

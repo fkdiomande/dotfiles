@@ -1,0 +1,52 @@
+// ~/.local/share/rofi/themes/slate.rasi
+
+* {
+  background-color: #101517;
+  text-color: #546E7A;
+}
+
+#window {
+  transparency: "screenshot";
+  padding: 0 10px 10px;
+  border:  1px;
+  border-color: #16A085;
+  border-radius: 0px;
+  width: 1200px;
+  font: "Roboto 16";
+}
+
+textbox {
+  padding: 0;
+}
+
+entry {
+  margin: 30px 30px 75px 30px;
+  font: "Roboto Italic 20";
+  color: #16A085;
+  placeholder: "Search something ...";
+  placeholder-color: #1F2A32;
+}
+
+listview {
+  cycle: false;
+  margin: 0 0 -1px 0;
+  scrollbar: false;
+}
+
+element {
+  border: 0;
+  padding: 0 16px;
+}
+
+element selected {
+  background-color: #12322C;
+  text-color: #9CB0BA;
+}
+
+element-icon {
+  size: 50px;
+}
+
+element-text {
+  padding: 30px 16px;
+}
