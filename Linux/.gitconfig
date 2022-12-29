@@ -1,8 +1,0 @@
-[pull]
-  rebase = false
-[core]
-  excludesFile = ~/.gitignore
-  autocrlf = input
-[user]
-  name = fkdiomande
-  email = fkdiomande.dev@gmail.com
