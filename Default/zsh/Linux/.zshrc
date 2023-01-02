@@ -1,4 +1,11 @@
-# setopt EXTENDED_GLOB
+setopt EXTENDED_GLOB
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+# for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
+  # ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
+# done
 
 export DEFAULT_USER=$USER
 
@@ -23,12 +30,7 @@ export PATH="$PNPM_HOME:$PATH"
 alias pn='pnpm'
 # pnpm end
 
-# Source Prezto.
-if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-fi
-
-source /home/franck/.local/share/icons-in-terminal/icons_bash.sh
+source /home/franck/.local/share/icons-in-terminal/icons_bash_export.sh
 
 # Aliases
 alias q='exit'
@@ -62,6 +64,17 @@ alias b='bat'
 alias cat='bat'
 alias rr='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 alias z='zathura'
+alias t='tree'
+alias rm='rm -v'
+alias open='xdg-open'
+
+alias v='nvim'
+alias vi='nvim'
+alias vim='nvim'
+alias nv='neovide'
+
+alias gs='git status'
+alias ga='git add -A'
 
 alias dkrmc='docker rm $(docker ps -a -q) -f -v'
 alias dkrmi='docker rmi $(docker images -a -q) -f'

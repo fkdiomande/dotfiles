@@ -26,9 +26,7 @@
   "editor.occurrencesHighlight": false,
   "editor.selectionHighlight": false,
   "editor.matchBrackets": "near",
-  "editor.rulers": [
-    120
-  ],
+  "editor.rulers": [120],
   "editor.tabCompletion": "on",
   "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
   "editor.fontFamily": "Fira Code",
@@ -59,6 +57,7 @@
   "emmet.triggerExpansionOnTab": true,
   // Explorer
   "explorer.confirmDelete": false,
+  "window.zoomLevel": 0.6,
   "explorer.autoReveal": false,
   "explorer.confirmDragAndDrop": false,
   // Gitlens
@@ -74,13 +73,11 @@
   "githd.blameView.enabled": false,
   "php.suggest.basic": false,
   "php.validate.enable": false,
-  "emmet.excludeLanguages": [
-    "markdown",
-    "php"
-  ],
+  "emmet.excludeLanguages": ["markdown", "php"],
   "cSpell.userWords": [
     "Afan",
     "asynciterable",
+    "autohint",
     "Azeri",
     "Bhutani",
     "Bislama",
@@ -99,6 +96,7 @@
     "fkdiomande",
     "FYRO",
     "githd",
+    "hintstyle",
     "Interlingue",
     "Inupiak",
     "Jetbrains",
@@ -110,6 +108,7 @@
     "Konkani",
     "Laothian",
     "lastname",
+    "lcdfilter",
     "Lingala",
     "middlewares",
     "Occitan",
@@ -120,6 +119,7 @@
     "pageup",
     "preact",
     "Pushto",
+    "rgba",
     "Rhaeto",
     "Rica",
     "Sangro",
@@ -137,6 +137,7 @@
     "unicodes",
     "viewports",
     "Volapuk",
+    "Xcursor",
     "Zekrom"
   ],
   "workbench.colorCustomizations": {
@@ -210,7 +211,7 @@
     // Tab colors
     "tab.activeBackground": "#193143",
     "tab.activeBorder": "#219FD5",
-    "tab.activeForeground": "#219FD5",
+    "tab.activeForeground": "#7799BB",
     "tab.border": "#1d1d26",
     // "tab.hoverBorder": "#219FD5",
     "tab.hoverBackground": "#193143",
@@ -413,12 +414,8 @@
   "multiCommand.commands": [
     {
       "command": "multiCommand.comment",
-      "sequence": [
-        "editor.action.commentLine",
-        "cursorDown"
-      ]
+      "sequence": ["editor.action.commentLine", "cursorDown"]
     }
   ],
-  "window.menuBarVisibility": "toggle",
-  "workbench.activityBar.visible": false
+  "window.menuBarVisibility": "toggle"
 }

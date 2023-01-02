@@ -118,5 +118,15 @@
         "is_default_search": true,
         "run_without_argument": true,
         "added": 1617093798.014599
+    },
+    "09d9f09a-a44f-43e5-9328-0b4598792247": {
+        "id": "09d9f09a-a44f-43e5-9328-0b4598792247",
+        "name": "1Password",
+        "keyword": "1password",
+        "cmd": "/opt/1Password/1password",
+        "icon": "~/.config/ulauncher/icons/1password-icon.svg",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1672067238.3453028
     }
 }

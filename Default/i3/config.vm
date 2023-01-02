@@ -21,7 +21,7 @@ set $mod Mod4
 hide_edge_borders none
 
 # Use Mouse+$mod to drag floating windows to their wanted position
-floating_modifier $mod
+floating_modifier Ctrl
 
 # move tiling windows via drag & drop by left-clicking into the title bar,
 # or left-clicking anywhere into the window while holding the floating modifier.
@@ -33,7 +33,7 @@ for_window [class="^.*"]  border pixel 1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font xft:Fira Code Nerd Font 9
+font xft:Quicksand Medium Font 8
 
 # Set inner/outer gaps
 gaps inner 4
@@ -50,6 +50,8 @@ show_marks no
 
 # Set Resolution - see /etc/X11/xorg.conf.d/10-monitor.conf
 exec xrandr --output Virtual-1 --mode 5120x2880 --dpi 235
+# exec --no-startup-id xrandr --newmode "3456x2234_60.00"  664.00  3456 3744 4120 4784  2234 2237 2247 2314 -hsync +vsync
+# exec --no-startup-id xrandr --addmode Virtual-1 3456x2234_60.00
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -77,7 +79,7 @@ exec --no-startup-id xmodmap $HOME/.Xmodmap
 
 exec_always --no-startup-id $HOME/.config/polybar/material/launch.sh
 exec_always --no-startup-id GDK_DPI_SCALE=0.5 GDK_SCALE=2 ulauncher
-exec_always feh --bg-scale ~/Projects/Dotfiles/images/ooneex.png
+exec_always feh --bg-scale /Projects/Dotfiles/images/ooneex.png
 # exec_always --no-startup-id ff-theme-util
 # exec_always --no-startup-id fix_xcursor
 
@@ -174,28 +176,28 @@ set $ws9 "9"
 set $ws10 "10"
 
 # switch to workspace
-bindsym $mod+1 workspace number $ws1
-bindsym $mod+2 workspace number $ws2
-bindsym $mod+3 workspace number $ws3
-bindsym $mod+4 workspace number $ws4
-bindsym $mod+5 workspace number $ws5
-bindsym $mod+6 workspace number $ws6
-bindsym $mod+7 workspace number $ws7
-bindsym $mod+8 workspace number $ws8
-bindsym $mod+9 workspace number $ws9
-bindsym $mod+0 workspace number $ws10
+bindsym Ctrl+1 workspace number $ws1
+bindsym Ctrl+2 workspace number $ws2
+bindsym Ctrl+3 workspace number $ws3
+bindsym Ctrl+4 workspace number $ws4
+bindsym Ctrl+5 workspace number $ws5
+bindsym Ctrl+6 workspace number $ws6
+bindsym Ctrl+7 workspace number $ws7
+bindsym Ctrl+8 workspace number $ws8
+bindsym Ctrl+9 workspace number $ws9
+bindsym Ctrl+0 workspace number $ws10
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace number $ws1
-bindsym $mod+Shift+2 move container to workspace number $ws2
-bindsym $mod+Shift+3 move container to workspace number $ws3
-bindsym $mod+Shift+4 move container to workspace number $ws4
-bindsym $mod+Shift+5 move container to workspace number $ws5
-bindsym $mod+Shift+6 move container to workspace number $ws6
-bindsym $mod+Shift+7 move container to workspace number $ws7
-bindsym $mod+Shift+8 move container to workspace number $ws8
-bindsym $mod+Shift+9 move container to workspace number $ws9
-bindsym $mod+Shift+0 move container to workspace number $ws10
+bindsym Ctrl+Shift+1 move container to workspace number $ws1
+bindsym Ctrl+Shift+2 move container to workspace number $ws2
+bindsym Ctrl+Shift+3 move container to workspace number $ws3
+bindsym Ctrl+Shift+4 move container to workspace number $ws4
+bindsym Ctrl+Shift+5 move container to workspace number $ws5
+bindsym Ctrl+Shift+6 move container to workspace number $ws6
+bindsym Ctrl+Shift+7 move container to workspace number $ws7
+bindsym Ctrl+Shift+8 move container to workspace number $ws8
+bindsym Ctrl+Shift+9 move container to workspace number $ws9
+bindsym Ctrl+Shift+0 move container to workspace number $ws10
 
 # Open applications on specific workspaces
 # assign [class="(?i)code"] $ws1
